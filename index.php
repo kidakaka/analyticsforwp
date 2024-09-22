@@ -2,13 +2,9 @@
 <html>
   <title>Basic GA setup</title>
   <head>
-    
-  </head>
-<body>
-<!-- the default method of including GA, this is to be put immediately after the head section  -->
 <?php
 // add your property here. for protecting the property have removed the actual id and added a dummy string
- $config = "your-propery-id-goes-here";
+$config = "your-propery-id-goes-here";
 ?>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo $config; ?>"></script>
@@ -19,7 +15,8 @@
 
   gtag('config', '<?php echo $config; ?>');
 </script>
-
+  </head>
+<body>
 <h1>My First Heading</h1>
 
 <p>My first paragraph.</p>
