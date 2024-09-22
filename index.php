@@ -11,7 +11,7 @@
  $config = "your-propery-id-goes-here";
 ?>
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-N89XGQ8QGY"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo $config; ?>"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
