@@ -8,6 +8,5 @@ If there are additional parameters which are use case specific, these would also
 ## List of scripts
 1. ~~Basic script initialization~~
 2. ~~Custom Event~~
-3. Custom Event in a WordPress functions.php
+3. ~~Custom Event in a WordPress functions.php~~
 4. User ID
-5. Measurement protcol usage for server side measurement
